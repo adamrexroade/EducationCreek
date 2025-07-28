@@ -237,3 +237,8 @@ mergedfig[[8]] <- textGrob("Shallow Groundwater")
 
 
 mergedfig
+
+ggsave("Education/Figures/PublishedFigures/Figure2.png",
+       plot = mergedfig,
+       height = 8, width = 7, dpi=300)
+
